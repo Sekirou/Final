@@ -3,7 +3,7 @@
 
 <head>
 <link rel="stylesheet" type="text/css" href="style.css"/>
-<title>My First Website</title>
+<title>Ancestry vs. Religious Affiliation</title>
 	
     <meta charset='utf-8' />
     <title></title>
@@ -37,7 +37,10 @@
 
 
 <br><br>
-This is a new line
+On this 3D map the colour legend below shows the dominant ancestry living in the suburbs. The heights represent the total percentage of individuals living in the same area who are religious. This creates a clear representation between the overseas born population who are Religious in certain suburbs.  By comparing the two 3D maps observed on this website, there is correlation between what religions exist in certain suburbs due to the ancestral birth place of the dominant people living there.
+<br><br>
+<img src="./Legend2.png"alt="Image has been removed!" style="width:50%">
+
 
 </h3>
 
@@ -92,7 +95,7 @@ map.on('load', function() {
             },
             'fill-extrusion-height': {
                 // Get fill-extrusion-height from the source 'height' property.
-                'property': 'Population',
+                'property': 'Population',//percentage of people who follow religions
                 "stops":[
                 [0.2, 0],
                 [1,25000]
